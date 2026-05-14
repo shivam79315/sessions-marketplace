@@ -1,0 +1,64 @@
+/* App-specific styles */
+.App {
+  min-height: 100vh;
+}
+
+/* Session card hover animation */
+.session-card-image {
+  transition: transform 0.5s ease-out;
+}
+
+.session-card:hover .session-card-image {
+  transform: scale(1.05);
+}
+
+/* Button active state */
+.btn-active:active {
+  transform: scale(0.95);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+/* Ambient shadow */
+.shadow-ambient {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* Price slider thumb styling */
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #E05934;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #E05934;
+  cursor: pointer;
+  border: none;
+}
+
+/* Focus ring styles */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(224, 89, 52, 0.2);
+}
+
+/* Aspect ratio utilities */
+.aspect-4-3 {
+  aspect-ratio: 4 / 3;
+}
+
+.aspect-16-10 {
+  aspect-ratio: 16 / 10;
+}

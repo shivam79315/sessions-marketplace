@@ -1,0 +1,227 @@
+﻿{
+  "categories": [
+    "All",
+    "Design",
+    "Development",
+    "Marketing",
+    "Business",
+    "Wellness",
+    "Photography"
+  ],
+  "users": {
+    "user1": {
+      "id": "user-1",
+      "name": "Aarav Mehta",
+      "email": "aarav@example.com",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+    },
+    "creator1": {
+      "id": "creator-1",
+      "name": "Maya Kapoor",
+      "email": "maya@example.com",
+      "role": "CREATOR",
+      "title": "Product Designer and Creative Coach",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+      "sessionsCreated": ["session-1", "session-3", "session-6"]
+    }
+  },
+  "sessions": [
+    {
+      "id": "session-1",
+      "title": "Design Systems Sprint",
+      "shortDescription": "Build reusable UI foundations for a fast-moving product team.",
+      "description": "A practical session on structuring tokens, components, variants, and documentation so your design system can scale without slowing your team down.",
+      "category": "Design",
+      "price": 120,
+      "duration": "90 minutes",
+      "rating": 4.9,
+      "reviewCount": 86,
+      "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-1",
+        "name": "Maya Kapoor",
+        "title": "Product Designer and Creative Coach",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-2",
+      "title": "React Debugging Clinic",
+      "shortDescription": "Untangle hooks, state bugs, routing issues, and frontend build errors.",
+      "description": "Bring your React questions and leave with a repeatable debugging workflow for components, hooks, async data, and Vite-powered apps.",
+      "category": "Development",
+      "price": 95,
+      "duration": "60 minutes",
+      "rating": 4.8,
+      "reviewCount": 64,
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-2",
+        "name": "Rohan Iyer",
+        "title": "Senior Frontend Engineer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-3",
+      "title": "Portfolio Review for Creatives",
+      "shortDescription": "Sharpen your case studies, visual storytelling, and presentation flow.",
+      "description": "A focused review for designers, photographers, and makers who want a portfolio that feels clear, confident, and memorable.",
+      "category": "Design",
+      "price": 80,
+      "duration": "45 minutes",
+      "rating": 4.7,
+      "reviewCount": 52,
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-1",
+        "name": "Maya Kapoor",
+        "title": "Product Designer and Creative Coach",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-4",
+      "title": "Launch Plan in One Hour",
+      "shortDescription": "Map your audience, channels, offers, and first-week launch actions.",
+      "description": "Turn a scattered launch idea into a clear plan with positioning, messaging angles, channel priorities, and measurable next steps.",
+      "category": "Marketing",
+      "price": 110,
+      "duration": "60 minutes",
+      "rating": 4.9,
+      "reviewCount": 73,
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-3",
+        "name": "Nisha Rao",
+        "title": "Growth Strategist",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-5",
+      "title": "Founder Finance Basics",
+      "shortDescription": "Understand pricing, margins, runway, and cash flow without jargon.",
+      "description": "A plain-English working session for early founders who want to make better decisions with simple financial models.",
+      "category": "Business",
+      "price": 150,
+      "duration": "75 minutes",
+      "rating": 4.6,
+      "reviewCount": 41,
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-4",
+        "name": "Kabir Sethi",
+        "title": "Startup Finance Advisor",
+        "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-6",
+      "title": "Calm Productivity Reset",
+      "shortDescription": "Create a weekly planning rhythm that lowers stress and raises focus.",
+      "description": "Design a lightweight productivity system around energy, priorities, and recovery instead of endless task lists.",
+      "category": "Wellness",
+      "price": 65,
+      "duration": "50 minutes",
+      "rating": 4.8,
+      "reviewCount": 58,
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-1",
+        "name": "Maya Kapoor",
+        "title": "Product Designer and Creative Coach",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-7",
+      "title": "Street Photography Walkthrough",
+      "shortDescription": "Learn composition, timing, and editing for expressive city photos.",
+      "description": "A critique and planning session for photographers who want stronger visual instincts and a tighter editing process.",
+      "category": "Photography",
+      "price": 70,
+      "duration": "60 minutes",
+      "rating": 4.7,
+      "reviewCount": 36,
+      "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-5",
+        "name": "Ira Sen",
+        "title": "Documentary Photographer",
+        "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=200&q=80"
+      }
+    },
+    {
+      "id": "session-8",
+      "title": "API Design for Full-Stack Apps",
+      "shortDescription": "Plan cleaner endpoints, payloads, errors, and auth boundaries.",
+      "description": "A hands-on architecture session for developers building REST APIs that are easier to test, document, and evolve.",
+      "category": "Development",
+      "price": 135,
+      "duration": "90 minutes",
+      "rating": 4.9,
+      "reviewCount": 49,
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "creator": {
+        "id": "creator-6",
+        "name": "Dev Malhotra",
+        "title": "Backend Architect",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1",
+      "userId": "user-1",
+      "sessionId": "session-1",
+      "sessionTitle": "Design Systems Sprint",
+      "sessionImage": "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-04-24",
+      "price": 120,
+      "status": "active"
+    },
+    {
+      "id": "booking-2",
+      "userId": "user-1",
+      "sessionId": "session-4",
+      "sessionTitle": "Launch Plan in One Hour",
+      "sessionImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-05-02",
+      "price": 110,
+      "status": "active"
+    },
+    {
+      "id": "booking-3",
+      "userId": "user-1",
+      "sessionId": "session-7",
+      "sessionTitle": "Street Photography Walkthrough",
+      "sessionImage": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-03-18",
+      "price": 70,
+      "status": "past"
+    },
+    {
+      "id": "booking-4",
+      "userId": "user-2",
+      "sessionId": "session-3",
+      "sessionTitle": "Portfolio Review for Creatives",
+      "sessionImage": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-04-29",
+      "price": 80,
+      "status": "active"
+    },
+    {
+      "id": "booking-5",
+      "userId": "user-3",
+      "sessionId": "session-6",
+      "sessionTitle": "Calm Productivity Reset",
+      "sessionImage": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-03-12",
+      "price": 65,
+      "status": "past"
+    }
+  ]
+}

@@ -13,14 +13,25 @@ class User(AbstractUser):
         default=Roles.USER
     )
 
-    avatar = models.URLField(blank=True, null=True)
+    title = models.CharField(
+        max_length=255,
+        blank=True
+    )
 
-    # OAuth provider
-    provider = models.CharField(max_length=50, blank=True, null=True)
+    bio = models.TextField(blank=True)
 
-    # email based authentication
+    avatar = models.URLField(blank=True)
+
+    provider = models.CharField(
+        max_length=50,
+        blank=True
+    )
+
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
 
     def is_creator(self):
         return self.role == Roles.CREATOR
+
+    def __str__(self):
+        return self.email
